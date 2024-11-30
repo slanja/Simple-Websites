@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1 id="title">Survey Form</h1>
+	<p id="description">Lorem ipsum dolor sit amet...</p>
+	<form id="survey-form">
+		<fieldset>
+			<label id="name-label">Enter your name: <input type="text" name="name" id="name" placeholder="John Dorry" required></label>
+
+			<label id="email-label">Enter your email: <input type="email" name="email" id="email" placeholder="john.dorry@gmail.com" required></label>
+
+			<label id="number-label">Enter your age: <input type="number" name="number" id="number" placeholder="23" min="13" max="120"></label>
+		</fieldset>
+
+		<fieldset>
+			<select id="dropdown">
+				<option>Student</option>
+				<option>Adult</option>
+			</select>
+		
+			<label>Male<input type="radio" value="1" name="radio-buttons"></label>
+			<label>Female<input type="radio" value="2" name="radio-buttons"></label>
+		</fieldset>
+
+		<fieldset>
+			<label>Do you want to subscribe to our newsletter? <input type="checkbox" name="checkbox-buttons" value="1"></label>
+			<label>Do you agree with our terms and conditions? <input type="checkbox" name="checkbox-buttons" value="2"></label>
+		</fieldset>
+		
+		<textarea placeholder="What's your opinion about web development?" rows="4"></textarea>
+
+		<button id="submit" value="Submit">Submit</button>
+	</form>
+</body>
+</html>

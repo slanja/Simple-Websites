@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+}
+
+fieldset {
+	margin: auto;
+	width: 50vw;
+	display: block;
+}
+
+label, input, textarea, button {
+	display: grid;
+	justify-content: center;
+	margin: auto;
+}
+
+label {
+	margin-top: 15px;
+}
+
+textarea, button {
+	margin-top: 10px;
+}
+
+textarea {
+	width: 51vw;
+}
